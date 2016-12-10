@@ -16,3 +16,6 @@
 [submodule "vendor/fonts"]
 	path = vendor/fonts
 	url = https://github.com/powerline/fonts.git
+[submodule "pack/dvonrohr/start/editorconfig-vim"]
+	path = pack/dvonrohr/start/editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim.git
