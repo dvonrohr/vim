@@ -4,6 +4,8 @@ set nocompatible
 set t_CO=256
 filetype plugin indent on
 
+colorscheme wombat
+
 imap jj <ESC>
 let mapleader=","
 
