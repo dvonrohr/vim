@@ -1,3 +1,6 @@
 [submodule "pack/dvonrohr/start/emmet-vim"]
 	path = pack/dvonrohr/start/emmet-vim
 	url = https://github.com/mattn/emmet-vim.git
+[submodule "pack/dvonrohr/start/ctrlp"]
+	path = pack/dvonrohr/start/ctrlp
+	url = https://github.com/ctrlpvim/ctrlp.vim.git
