@@ -9,7 +9,6 @@ let mapleader=","
 
 set backspace=indent,eol,start
 set ignorecase
-set smartsearch
 set incsearch
 set hlsearch
 set visualbell
@@ -21,8 +20,8 @@ if has('persistent_undo')
 endif
 
 " backup rules
-set <backup>	" enable backup files (.txt~)
-set <undofile>" enable persistent undo
+" set <backup>	" enable backup files (.txt~)
+" set <undofile>" enable persistent undo
 
 silent execute '!mkdir -p $HOME/.vim/tmp/backup'
 set backupdir=$HOME/.vim/tmp/backup " where to store backup
@@ -39,10 +38,6 @@ filetype on
 filetype plugin on
 filetype indent on
 
-" tabstop settings
-set <tabstop>	" a tab found in a file will be respresented with 4 columns
-set <softtabstop>" when in insert mode <tab> is pressed move 4 columns
-set <shiftwidth>" indentation is 4 columns
 set smarttab            " make tab insert indedents instead of tabs at beginning fo a line
 set expandtab           " set expandtab
 
