@@ -13,3 +13,6 @@
 [submodule "pack/dvonrohr/start/wombat"]
 	path = pack/dvonrohr/start/wombat
 	url = https://github.com/vim-scripts/Wombat.git
+[submodule "vendor/fonts"]
+	path = vendor/fonts
+	url = https://github.com/powerline/fonts.git
