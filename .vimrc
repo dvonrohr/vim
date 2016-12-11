@@ -70,6 +70,19 @@ let g:syntastic_javascript_checkers = ['jshint']
 set laststatus=2
 set ttimeoutlen=50
 
+" Nerdtree file explorer
+let g:netrw_banner = 0
+let g:netrw_liststyle = 3
+let g:netrw_browse_split = 3
+let g:netrw_altv = 1
+let g:netrw_winsize = 25
+set autochdir
+set browsedir=current
+" augroup ProjectDrawer
+"         autocmd!
+"         autocmd VimEnter * :Vexplore
+" augroup END
+
 " Use Tab for expanding emmet snippets
 let g:user_emmet_expandabbr_key='<TAB>'
 imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
