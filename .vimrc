@@ -47,7 +47,7 @@ set expandtab           " set expandtab
 set number
 
 " ctrlp
-set runtimepath^=~/.vim/bundle/ctrlp.vim
+set runtimepath^=~/.vim/pack/dvonrohr/start/ctrlp
 
 " vim-airline
 let g:airline#extensions#tabline#enabled = 1
