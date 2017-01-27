@@ -1,6 +1,7 @@
 set guifont=Inconsolata_for_Powerline:h14:cANSI:qDRAFT
 set guioptions=aAce
 set noballooneval
+set linespace=4
 
 " resize current buffer by +/-
 " 5
