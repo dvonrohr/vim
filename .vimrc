@@ -4,6 +4,9 @@ set nocompatible
 set t_CO=256
 filetype plugin indent on
 
+set encoding=utf-8 " the encoding displayed
+set fileencoding=utf-8 " the encoding written to file
+
 colorscheme wombat
 
 imap jj <ESC>
@@ -55,10 +58,7 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 
 " vim-airline
-let g:airline#extensions#tabline#enabled = 1
-let g:airline_them = 'powerlineish'
-let g:airline_enable_branc = 1
-let g:airline_powerline_fonts=1
+let g:airline_powerline_fonts = 1
 
 set statusline+=%#warningmsg#
 " set statusline+=%{SyntasticStatuslineFlag()}
