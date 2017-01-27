@@ -52,6 +52,8 @@ set relativenumber
 " ctrlp
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
+let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
+
 " vim-airline
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_them = 'powerlineish'
