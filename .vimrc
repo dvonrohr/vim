@@ -46,6 +46,9 @@ set expandtab           " set expandtab
 " show linenumbers
 set number
 
+" show linenumbers relative
+set relativenumber
+
 " ctrlp
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
