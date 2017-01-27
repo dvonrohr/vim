@@ -28,3 +28,6 @@
 [submodule "pack/dvonrohr/start/syntastic"]
 	path = pack/dvonrohr/start/syntastic
 	url = https://github.com/vim-syntastic/syntastic.git
+[submodule ".\\pack\\dvonrohr\\start\\dockerfile.vim"]
+	path = .\\pack\\dvonrohr\\start\\dockerfile.vim
+	url = https://github.com/honza/dockerfile.vim.git
