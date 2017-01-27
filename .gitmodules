@@ -22,3 +22,6 @@
 [submodule "pack/dvonrohr/start/vim-fugitive"]
 	path = pack/dvonrohr/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+[submodule "pack/dvonrohr/start/vim-gitgutter"]
+	path = pack/dvonrohr/start/vim-gitgutter
+	url = git://github.com/airblade/vim-gitgutter.git

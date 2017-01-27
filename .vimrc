@@ -88,6 +88,9 @@ set browsedir=current
 "         autocmd VimEnter * :Vexplore
 " augroup END
 
+" Gitgutter
+let g:gitgutter_async = 1
+
 " Use Tab for expanding emmet snippets
 let g:user_emmet_expandabbr_key='<TAB>'
 imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
