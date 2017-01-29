@@ -25,3 +25,8 @@ map <D-M-Left> :tabp<CR>
 "splits
 " when resizing MacVim window
 autocmd VimResized * wincmd =
+
+if has("gui_macvim")
+  set transparency=10
+  set guifont=Monaco\ for\ Powerline:h13
+endif
