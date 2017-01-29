@@ -17,10 +17,4 @@ Configuration for vim 8. It contains configuration for vim, gvim and macvim.
 - run 'git submodule init'
 - run 'git submodule update'
 
-## Install on Mac or Linux:
-- clone the repository to a folder named '.vim' in your user-directory
-- Symlink '.vim/.vimrc' to 'USERDIR/.vimrc'
-- Symlink '.vim/.gvimrc' to 'USERDIR/.gvimrc'
-- Symlink '.vim/.editorconfig' to 'USERDIR/.editorconfig'
-
 ***IMPORTANT!!!*** You need vim <= 8.0 as it makes uses of vim's new plugin feature.
