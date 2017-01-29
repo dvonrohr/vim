@@ -7,7 +7,7 @@ Contains configuration for vim, gvim and macvim.
 - clone the repository to a folder named 'vimfiles' in your user-directory
 
 ## Install on Mac or Linux:
-- clone the repository to a folder name '.vim' in your user-directory
+- clone the repository to a folder named '.vim' in your user-directory
 
 ## Create Symlinks
 - Symlink 'vimfiles/.vimrc' to 'USERDIR/.vimrc'
