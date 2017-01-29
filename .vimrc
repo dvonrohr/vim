@@ -46,6 +46,13 @@ filetype indent on
 set smarttab            " make tab insert indedents instead of tabs at beginning fo a line
 set expandtab           " set expandtab
 
+" hightlight whitespace chars
+highlight NonText guifg=#4a4a59
+highlight SpecialKey guifg=#4a4a59
+set showbreak=↪\
+set listchars=tab:→\ ,eol:↲,nbsp:␣,trail:•,extends:⟩,precedes:⟨
+set list
+"
 " show linenumbers
 set number
 
