@@ -4,6 +4,9 @@ set nocompatible
 set t_CO=256
 filetype plugin indent on
 
+set encoding=utf-8 " the encoding displayed
+set fileencoding=utf-8 " the encoding written to file
+
 colorscheme wombat
 
 imap jj <ESC>
@@ -25,14 +28,14 @@ endif
 " set <backup>	" enable backup files (.txt~)
 " set <undofile>" enable persistent undo
 
-silent execute '!mkdir -p $HOME/.vim/tmp/backup'
-set backupdir=$HOME/.vim/tmp/backup " where to store backup
-silent execute '!mkdir -p $HOME/.vim/tmp/swap'
-set directory=$HOME/.vim/tmp/swap "where to store swap
-silent execute '!mkdir -p $HOME/.vim/tmp/views'
-set viewdir=$HOME/.vim/tmp/views " where to store view
-silent execute '!mkdir -p $HOME/.vim/tmp/undo'
-set undodir=$HOME/.vim/tmp/undo " where to store undo</undofile></backup>
+" silent execute '!mkdir -p $HOME/.vim/tmp/backup'
+" set backupdir=$HOME/.vim/tmp/backup " where to store backup
+" silent execute '!mkdir -p $HOME/.vim/tmp/swap'
+" set directory=$HOME/.vim/tmp/swap "where to store swap
+" silent execute '!mkdir -p $HOME/.vim/tmp/views'
+" set viewdir=$HOME/.vim/tmp/views " where to store view
+" silent execute '!mkdir -p $HOME/.vim/tmp/undo'
+" set undodir=$HOME/.vim/tmp/undo " where to store undo</undofile></backup>
 
 syntax on
 
@@ -46,14 +49,16 @@ set expandtab           " set expandtab
 " show linenumbers
 set number
 
+" show linenumbers relative
+set relativenumber
+
 " ctrlp
 set runtimepath^=~/.vim/pack/dvonrohr/start/ctrlp
 
+let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
+
 " vim-airline
-let g:airline#extensions#tabline#enabled = 1
-let g:airline_them = 'powerlineish'
-let g:airline_enable_branc = 1
-let g:airline_powerline_fonts=1
+let g:airline_powerline_fonts = 1
 
 set statusline+=%#warningmsg#
 " set statusline+=%{SyntasticStatuslineFlag()}
@@ -82,6 +87,9 @@ set browsedir=current
 "         autocmd!
 "         autocmd VimEnter * :Vexplore
 " augroup END
+
+" Gitgutter
+let g:gitgutter_async = 1
 
 " Use Tab for expanding emmet snippets
 let g:user_emmet_expandabbr_key='<TAB>'
