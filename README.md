@@ -3,7 +3,7 @@ Configuration for vim 8
 
 Contains configuration for vim, gvim and macvim.
 
-## Install it on WINDOWS:
+## Install on WINDOWS:
 - clone the repository to a folder named 'vimfiles' in your user-directory
 
 ## Install on Mac or Linux:
