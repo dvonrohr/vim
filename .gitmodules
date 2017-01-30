@@ -31,3 +31,6 @@
 [submodule ".\\pack\\dvonrohr\\start\\dockerfile.vim"]
 	path = .\\pack\\dvonrohr\\start\\dockerfile.vim
 	url = https://github.com/honza/dockerfile.vim.git
+[submodule "pack\\dvonrohr\\start\\vim.typoscript"]
+	path = pack\\dvonrohr\\start\\vim.typoscript
+	url = https://github.com/elmar-hinz/vim.typoscript.git
