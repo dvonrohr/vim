@@ -37,3 +37,6 @@
 [submodule "pack\\dvonrohr\\start\\vim-less"]
 	path = pack\\dvonrohr\\start\\vim-less
 	url = https://github.com/groenewege/vim-less.git
+[submodule "pack\\dvonrohr\\start\\vim-fluid"]
+	path = pack\\dvonrohr\\start\\vim-fluid
+	url = https://github.com/mipmip/vim-fluid.git
