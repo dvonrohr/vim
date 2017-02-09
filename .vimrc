@@ -43,6 +43,7 @@ filetype on
 filetype plugin on
 filetype indent on
 
+set autoindent
 set smarttab            " make tab insert indedents instead of tabs at beginning fo a line
 set expandtab           " set expandtab
 
