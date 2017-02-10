@@ -1,5 +1,4 @@
-set guifont=Meslo_LG_L_DZ_for_Powerline:h11:cANSI:qDRAFT
-" set guifont=Inconsolata_for_Powerline:h14:cANSI:qDRAFT
+set guifont=Hack:h11:cANSI:qDRAFT
 set guioptions=aAce
 set noballooneval
 set linespace=4
