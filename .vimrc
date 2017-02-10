@@ -24,6 +24,15 @@ if has('persistent_undo')
 	set undolevels=5000
 endif
 
+" Easier split navigations
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+set splitbelow
+set splitright
+
 " backup rules
 " set <backup>	" enable backup files (.txt~)
 " set <undofile>" enable persistent undo
