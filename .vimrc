@@ -7,7 +7,7 @@ filetype plugin indent on
 set encoding=utf-8 " the encoding displayed
 set fileencoding=utf-8 " the encoding written to file
 
-colorscheme wombat
+colorscheme base16-railscasts
 
 imap jj <ESC>
 let mapleader=","
@@ -78,7 +78,7 @@ let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclu
 let g:airline_powerline_fonts = 1
 
 set statusline+=%#warningmsg#
-" set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
 let g:syntastic_always_populate_loc_list = 1
