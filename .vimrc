@@ -45,6 +45,7 @@ set splitright
 " set viewdir=$HOME/.vim/tmp/views " where to store view
 " silent execute '!mkdir -p $HOME/.vim/tmp/undo'
 " set undodir=$HOME/.vim/tmp/undo " where to store undo</undofile></backup>
+set nobackup
 
 syntax on
 
