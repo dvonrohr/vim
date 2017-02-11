@@ -28,21 +28,21 @@
 [submodule "pack/dvonrohr/start/syntastic"]
 	path = pack/dvonrohr/start/syntastic
 	url = https://github.com/vim-syntastic/syntastic.git
-[submodule ".\\pack\\dvonrohr\\start\\dockerfile.vim"]
-	path = .\\pack\\dvonrohr\\start\\dockerfile.vim
+[submodule "pack/dvonrohr/start/dockerfile.vim"]
+	path = pack/dvonrohr/start/dockerfile.vim
 	url = https://github.com/honza/dockerfile.vim.git
-[submodule "pack\\dvonrohr\\start\\vim.typoscript"]
-	path = pack\\dvonrohr\\start\\vim.typoscript
+[submodule "pack/dvonrohr/start/vim.typoscript"]
+	path = pack/dvonrohr/start/vim.typoscript
 	url = https://github.com/elmar-hinz/vim.typoscript.git
-[submodule "pack\\dvonrohr\\start\\vim-less"]
-	path = pack\\dvonrohr\\start\\vim-less
+[submodule "pack/dvonrohr/start/vim-less"]
+	path = pack/dvonrohr/start/vim-less
 	url = https://github.com/groenewege/vim-less.git
-[submodule "pack\\dvonrohr\\start\\vim-fluid"]
-	path = pack\\dvonrohr\\start\\vim-fluid
+[submodule "pack/dvonrohr/start/vim-fluid"]
+	path = pack/dvonrohr/start/vim-fluid
 	url = https://github.com/mipmip/vim-fluid.git
-[submodule "pack\\dvonrohr\\start\\nerdtree"]
-	path = pack\\dvonrohr\\start\\nerdtree
+[submodule "pack/dvonrohr/start/nerdtree"]
+	path = pack/dvonrohr/start/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
-[submodule "pack\\dvonrohr\\start\\vim-colorschemes"]
-	path = pack\\dvonrohr\\start\\vim-colorschemes
+[submodule "pack/dvonrohr/start/vim-colorschemes"]
+	path = pack/dvonrohr/start/vim-colorschemes
 	url = https://github.com/flazz/vim-colorschemes.git
