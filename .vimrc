@@ -121,6 +121,10 @@ let g:user_emmet_settings = {
       \         "fdeb": "<f:debug>{|}</f:debug>",
       \         "ftrans": "<f:translate key=\"|\" />"
       \    }
-      \  }
+      \  },
+      \ "js": {
+      \    "snippets": {
+      \        "con": "console.log(|)"
+      \    }
       \}
 
