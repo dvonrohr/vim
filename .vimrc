@@ -73,6 +73,7 @@ set relativenumber
 " ctrlp
 set runtimepath^=~/.vim/pack/dvonrohr/start/ctrlp
 
+" Make CtrlP faster by making it skip files inside .gitignore
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 
 " vim-airline
