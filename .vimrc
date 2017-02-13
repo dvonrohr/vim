@@ -118,7 +118,7 @@ imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
 let g:user_emmet_settings = {
       \ "html": {
       \     "snippets": {
-      \         "fdeb": "<f:debug>{|}</fdebug>",
+      \         "fdeb": "<f:debug>{|}</f:debug>",
       \         "ftrans": "<f:translate key=\"|\" />"
       \    }
       \  }
