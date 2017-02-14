@@ -46,6 +46,12 @@
 [submodule "pack/dvonrohr/start/vim-colorschemes"]
 	path = pack/dvonrohr/start/vim-colorschemes
 	url = https://github.com/flazz/vim-colorschemes.git
-[submodule "pack\\dvonrohr\\start\\vim-fluid"]
-	path = pack\\dvonrohr\\start\\vim-fluid
+[submodule "pack/dvonrohr/start/vim-fluid"]
+	path = pack/dvonrohr/start/vim-fluid
 	url = https://github.com/mipmip/vim-fluid.git
+[submodule "pack/dvonrohr/start/tagbar"]
+	path = pack/dvonrohr/start/tagbar
+	url = git://github.com/majutsushi/tagbar
+[submodule "pack/dvonrohr/start/vim-easytags"]
+	path = pack/dvonrohr/start/vim-easytags
+	url = https://github.com/xolox/vim-easytags.git
