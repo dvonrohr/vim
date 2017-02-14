@@ -55,3 +55,6 @@
 [submodule "pack/dvonrohr/start/vim-easytags"]
 	path = pack/dvonrohr/start/vim-easytags
 	url = https://github.com/xolox/vim-easytags.git
+[submodule "pack/dvonrohr/start/vim-misc"]
+	path = pack/dvonrohr/start/vim-misc
+	url = https://github.com/xolox/vim-misc.git
