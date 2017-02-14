@@ -95,7 +95,7 @@ let g:syntastic_javascript_checkers = ['jshint']
 let g:syntastic_loc_list_height=3
 
 " display buffers in airline
-let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#enabled = 0
 
 set laststatus=2
 set ttimeoutlen=50
