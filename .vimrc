@@ -76,6 +76,9 @@ set runtimepath^=~/.vim/pack/dvonrohr/start/ctrlp
 " Make CtrlP faster by making it skip files inside .gitignore
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 
+" Let ctrlp search through tags file (ctags)
+nnoremap <leader>. :CtrlPTag<cr>
+
 " vim-airline
 let g:airline_powerline_fonts = 1
 
