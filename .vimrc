@@ -106,7 +106,7 @@ let g:netrw_liststyle = 3
 let g:netrw_browse_split = 3
 let g:netrw_altv = 1
 let g:netrw_winsize = 25
-set autochdir
+" set autochdir
 set browsedir=current
 " augroup ProjectDrawer
 "         autocmd!
@@ -115,6 +115,8 @@ set browsedir=current
 
 " Gitgutter
 let g:gitgutter_async = 1
+
+set tags=./tags,tags;$HOME
 
 " Use Tab for expanding emmet snippets
 let g:user_emmet_mode='a'
