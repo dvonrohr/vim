@@ -13,7 +13,6 @@ imap jj <ESC>
 let mapleader=","
 
 set backspace=indent,eol,start
-set ignorecase
 set incsearch
 set ignorecase smartcase " case-insensivite searching by default
 set hlsearch
