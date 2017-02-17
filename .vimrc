@@ -79,6 +79,9 @@ let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclu
 " Let ctrlp search through tags file (ctags)
 nnoremap <leader>. :CtrlPTag<cr>
 
+" List all loaded buffers and populate the prompt to choose one
+nnoremap <leader>l :ls<CR>:b<space>
+
 " vim-airline
 let g:airline_powerline_fonts = 1
 
@@ -126,10 +129,14 @@ let g:user_emmet_expandabbr_key='<TAB>'
 let g:user_emmet_complete_tag = 1
 imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
 let g:user_emmet_settings = {
-      \ "html": {
+      \ "fluid": {
       \     "snippets": {
       \         "fdeb": "<f:debug>{|}</f:debug>",
       \         "ftrans": "<f:translate key=\"|\" />",
+      \    }
+      \ },
+      \ "javascript": {
+      \     "snippets": {
       \         "con": "console.log(|)"
       \    }
       \ }
