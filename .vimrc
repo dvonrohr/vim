@@ -82,6 +82,12 @@ nnoremap <leader>. :CtrlPTag<cr>
 " List all loaded buffers and populate the prompt to choose one
 nnoremap <leader>l :ls<CR>:b<space>
 
+set path=.,**
+nnoremap <leader>f :find *
+nnoremap <leader>s :sfind *
+nnoremap <leader>v :vert sfind *
+nnoremap <leader>t :tabfind *
+
 " vim-airline
 let g:airline_powerline_fonts = 1
 
