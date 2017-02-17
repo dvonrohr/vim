@@ -79,6 +79,16 @@ let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclu
 " Let ctrlp search through tags file (ctags)
 nnoremap <leader>. :CtrlPTag<cr>
 
+" Wildmenu
+set wildmenu
+set wildignorecase
+set wildmode=list:full
+set wildignore=*.swp,*.bak
+set wildignore+=*.pyc,*.class,*.sln,*.Master,*.csproj,*.csproj.user,*.cache,*.dll,*.pdb,*.min.*
+set wildignore+=*/.git/**/*,*/.hg/**/*,*/.svn/**/*
+set wildignore+=tags
+set wildignore+=*.tar.*
+
 " List all loaded buffers and populate the prompt to choose one
 nnoremap <leader>l :ls<CR>:b<space>
 
