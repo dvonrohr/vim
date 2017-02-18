@@ -55,3 +55,6 @@
 [submodule "pack\\dvonrohr\\start\\vim-css3"]
 	path = pack\\dvonrohr\\start\\vim-css3
 	url = https://github.com/hail2u/vim-css3-syntax.git
+[submodule "pack\\dvonrohr\\start\\vim-css-color"]
+	path = pack\\dvonrohr\\start\\vim-css-color
+	url = https://github.com/skammer/vim-css-color.git
