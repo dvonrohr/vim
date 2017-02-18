@@ -46,15 +46,15 @@
 [submodule "pack/dvonrohr/start/vim-misc"]
 	path = pack/dvonrohr/start/vim-misc
 	url = https://github.com/xolox/vim-misc.git
-[submodule "pack\\dvonrohr\\start\\vim-typoscript"]
-	path = pack\\dvonrohr\\start\\vim-typoscript
+[submodule "pack/dvonrohr/start/vim-typoscript"]
+	path = pack/dvonrohr/start/vim-typoscript
 	url = https://github.com/elmar-hinz/vim.typoscript.git
-[submodule "pack\\dvonrohr\\start\\vim-less"]
-	path = pack\\dvonrohr\\start\\vim-less
+[submodule "pack/dvonrohr/start/vim-less"]
+	path = pack/dvonrohr/start/vim-less
 	url = https://github.com/groenewege/vim-less.git
-[submodule "pack\\dvonrohr\\start\\vim-css3"]
-	path = pack\\dvonrohr\\start\\vim-css3
+[submodule "pack/dvonrohr/start/vim-css3"]
+	path = pack/dvonrohr/start/vim-css3
 	url = https://github.com/hail2u/vim-css3-syntax.git
-[submodule "pack\\dvonrohr\\start\\vim-css-color"]
-	path = pack\\dvonrohr\\start\\vim-css-color
+[submodule "pack/dvonrohr/start/vim-css-color"]
+	path = pack/dvonrohr/start/vim-css-color
 	url = https://github.com/skammer/vim-css-color.git
