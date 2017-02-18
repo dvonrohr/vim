@@ -49,3 +49,6 @@
 [submodule "pack\\dvonrohr\\start\\vim-typoscript"]
 	path = pack\\dvonrohr\\start\\vim-typoscript
 	url = https://github.com/elmar-hinz/vim.typoscript.git
+[submodule "pack\\dvonrohr\\start\\vim-less"]
+	path = pack\\dvonrohr\\start\\vim-less
+	url = https://github.com/groenewege/vim-less.git
