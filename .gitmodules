@@ -46,3 +46,6 @@
 [submodule "pack/dvonrohr/start/vim-misc"]
 	path = pack/dvonrohr/start/vim-misc
 	url = https://github.com/xolox/vim-misc.git
+[submodule "pack\\dvonrohr\\start\\vim-typoscript"]
+	path = pack\\dvonrohr\\start\\vim-typoscript
+	url = https://github.com/elmar-hinz/vim.typoscript.git
