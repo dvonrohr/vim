@@ -52,3 +52,6 @@
 [submodule "pack\\dvonrohr\\start\\vim-less"]
 	path = pack\\dvonrohr\\start\\vim-less
 	url = https://github.com/groenewege/vim-less.git
+[submodule "pack\\dvonrohr\\start\\vim-css3"]
+	path = pack\\dvonrohr\\start\\vim-css3
+	url = https://github.com/hail2u/vim-css3-syntax.git
