@@ -8,6 +8,7 @@ set encoding=utf-8 " the encoding displayed
 set fileencoding=utf-8 " the encoding written to file
 
 colorscheme base16-railscasts
+set background=dark
 
 imap jj <ESC>
 let mapleader=","
