@@ -149,22 +149,10 @@ let g:gitgutter_async = 1
 
 set tags=./tags,tags;$HOME
 
-" Use Tab for expanding emmet snippets
-let g:user_emmet_mode='a'
-let g:user_emmet_expandabbr_key='<TAB>'
-let g:user_emmet_complete_tag = 1
-imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
-let g:user_emmet_settings = {
-      \ "fluid": {
-      \     "snippets": {
-      \         "fdeb": "<f:debug>{|}</f:debug>",
-      \         "ftrans": "<f:translate key=\"|\" />",
-      \    }
-      \ },
-      \ "javascript": {
-      \     "snippets": {
-      \         "con": "console.log(|)"
-      \    }
-      \ }
-      \}
+" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"

@@ -55,3 +55,9 @@
 [submodule "pack/dvonrohr/start/vim-css-color"]
 	path = pack/dvonrohr/start/vim-css-color
 	url = https://github.com/skammer/vim-css-color.git
+[submodule "pack/dvonrohr/start/ultisnips"]
+	path = pack/dvonrohr/start/ultisnips
+	url = https://github.com/SirVer/ultisnips.git
+[submodule "pack/dvonrohr/start/vim-snippets"]
+	path = pack/dvonrohr/start/vim-snippets
+	url = https://github.com/honza/vim-snippets.git
