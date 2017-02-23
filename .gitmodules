@@ -64,3 +64,6 @@
 [submodule "pack\\dvonrohr\\start\\nerdcommenter"]
 	path = pack\\dvonrohr\\start\\nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter
+[submodule "pack\\dvonrohr\\start\\html5-vim"]
+	path = pack\\dvonrohr\\start\\html5-vim
+	url = https://github.com/othree/html5.vim.git
