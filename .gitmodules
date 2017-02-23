@@ -61,3 +61,6 @@
 [submodule "pack/dvonrohr/start/vim-snippets"]
 	path = pack/dvonrohr/start/vim-snippets
 	url = https://github.com/honza/vim-snippets.git
+[submodule "pack\\dvonrohr\\start\\nerdcommenter"]
+	path = pack\\dvonrohr\\start\\nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter
