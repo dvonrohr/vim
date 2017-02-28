@@ -11,7 +11,7 @@ colorscheme base16-railscasts
 set background=dark
 
 imap jj <ESC>
-let mapleader=","
+let mapleader=" "
 
 set backspace=indent,eol,start
 set incsearch
