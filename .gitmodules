@@ -25,9 +25,6 @@
 [submodule "pack/dvonrohr/start/syntastic"]
 	path = pack/dvonrohr/start/syntastic
 	url = https://github.com/vim-syntastic/syntastic.git
-[submodule "pack/dvonrohr/start/nerdtree"]
-	path = pack/dvonrohr/start/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
 [submodule "pack/dvonrohr/start/vim-colorschemes"]
 	path = pack/dvonrohr/start/vim-colorschemes
 	url = https://github.com/flazz/vim-colorschemes.git
