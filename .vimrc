@@ -160,3 +160,6 @@ let g:UltiSnipsJumpBackwardTrigger="<c-k>"
 
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
+
+" Open .vimrc for editing
+nmap <Leader>v :edit ~/.vimrc
