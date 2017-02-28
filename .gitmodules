@@ -37,9 +37,6 @@
 [submodule "pack/dvonrohr/start/tagbar"]
 	path = pack/dvonrohr/start/tagbar
 	url = git://github.com/majutsushi/tagbar
-[submodule "pack/dvonrohr/start/vim-easytags"]
-	path = pack/dvonrohr/start/vim-easytags
-	url = https://github.com/xolox/vim-easytags.git
 [submodule "pack/dvonrohr/start/vim-misc"]
 	path = pack/dvonrohr/start/vim-misc
 	url = https://github.com/xolox/vim-misc.git
@@ -70,9 +67,18 @@
 [submodule "pack/dvonrohr/start/YouCompleteMe"]
 	path = pack/dvonrohr/start/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
-[submodule "pack\\dvonrohr\\start\\vim-vuew"]
-	path = pack\\dvonrohr\\start\\vim-vuew
+[submodule "pack/dvonrohr/start/vim-vuew"]
+	path = pack/dvonrohr/start/vim-vuew
 	url = https://github.com/posva/vim-vue.git
-[submodule "pack\\dvonrohr\\start\\rainbow-brackets"]
-	path = pack\\dvonrohr\\start\\rainbow-brackets
+[submodule "pack/dvonrohr/start/rainbow-brackets"]
+	path = pack/dvonrohr/start/rainbow-brackets
 	url = https://github.com/luochen1990/rainbow.git
+[submodule "pack/dvonrohr/opt/nerdtree"]
+	path = pack/dvonrohr/opt/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "pack/dvonrohr/opt/tagbar"]
+	path = pack/dvonrohr/opt/tagbar
+	url = https://github.com/majutsushi/tagbar.git
+[submodule "pack/dvonrohr/opt/vim-easytags"]
+	path = pack/dvonrohr/opt/vim-easytags
+	url = https://github.com/xolox/vim-easytags.git
