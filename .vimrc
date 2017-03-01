@@ -136,7 +136,7 @@ let g:netrw_browse_split = 3
 let g:netrw_altv = 1
 let g:netrw_winsize = 25
 set autochdir
-nmap <leader>n :NERDTreeToggle<cr>
+nmap <leader>n :Vexplore<cr>
 
 set browsedir=current
 " augroup ProjectDrawer
@@ -157,6 +157,32 @@ let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-j>"
 let g:UltiSnipsJumpBackwardTrigger="<c-k>"
+
+" Rainbow Brackets
+let g:rainbow_active = 1
+
+let g:rainbow_conf = {
+      \   'guifgs': ['royalblue3', 'darkorange3', 'seagreen3', 'firebrick'],
+      \   'ctermfgs': ['lightblue', 'lightyellow', 'lightcyan', 'lightmagenta'],
+      \   'operators': '_,_',
+      \   'parentheses': ['start=/(/ end=/)/ fold', 'start=/\[/ end=/\]/ fold', 'start=/{/ end=/}/ fold'],
+      \   'separately': {
+      \       '*': {},
+      \       'tex': {
+      \           'parentheses': ['start=/(/ end=/)/', 'start=/\[/ end=/\]/'],
+      \       },
+      \       'lisp': {
+      \           'guifgs': ['royalblue3', 'darkorange3', 'seagreen3', 'firebrick', 'darkorchid3'],
+      \       },
+      \       'vim': {
+      \           'parentheses': ['start=/(/ end=/)/', 'start=/\[/ end=/\]/', 'start=/{/ end=/}/ fold', 'start=/(/ end=/)/ containedin=vimFuncBody', 'start=/\[/ end=/\]/ containedin=vimFuncBody', 'start=/{/ end=/}/ fold containedin=vimFuncBody'],
+      \       },
+      \       'html': {
+      \           'parentheses': ['start=/\v\<((area|base|br|col|embed|hr|img|input|keygen|link|menuitem|meta|param|source|track|wbr)[ >])@!\z([-_:a-zA-Z0-9]+)(\s+[-_:a-zA-Z0-9]+(\=("[^"]*"|'."'".'[^'."'".']*'."'".'|[^ '."'".'"><=`]*))?)*\>/ end=#</\z1># fold'],
+      \       },
+      \       'css': 0,
+      \   }
+      \}
 
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
