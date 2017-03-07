@@ -42,6 +42,7 @@ if has('win32')
   set nobackup
   set nowritebackup
   set noswapfile
+  set noundofile
 " silent execute '!mkdir "'.$VIMRUNTIME.'/temp"'
 " silent execute '!del "'.$VIMRUNTIME.'/temp/*~"'
 " set backupdir=$VIMRUNTIME/temp//
@@ -117,7 +118,7 @@ set statusline+=%*
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 0
 let g:syntastic_mode_map = {'passive_filetypes': ['xml']}
 let g:syntastic_javascript_checkers = ['jshint']
