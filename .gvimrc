@@ -3,6 +3,16 @@ set guioptions=aAce
 set noballooneval
 set linespace=4
 
+if has("gui_running")
+    set guioptions=icpM
+    if has('win32') || has('win64')
+        if (v:version == 704 && has("patch393")) || v:version > 704
+            set renderoptions=type:directx,level:0.75,gamma:1.25,contrast:0.25,
+                        \geom:1,renmode:5,taamode:1
+        endif
+    endif
+endif
+
 " resize current buffer by +/-
 " 5
 nnoremap <M-Right> :vertical resize +5<CR>
