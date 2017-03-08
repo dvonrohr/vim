@@ -76,3 +76,6 @@
 [submodule "pack/dvonrohr/opt/vim-easytags"]
 	path = pack/dvonrohr/opt/vim-easytags
 	url = https://github.com/xolox/vim-easytags.git
+[submodule "pack\\dvonrohr\\start\\onedark-colorscheme"]
+	path = pack\\dvonrohr\\start\\onedark-colorscheme
+	url = https://github.com/joshdick/onedark.vim.git
