@@ -82,3 +82,6 @@
 [submodule "pack/dvonrohr/start/taskpaper-vim"]
 	path = pack/dvonrohr/start/taskpaper-vim
 	url = https://github.com/davidoc/taskpaper.vim.git
+[submodule "pack/dvonrohr/start/vim-rooter"]
+	path = pack/dvonrohr/start/vim-rooter
+	url = https://github.com/airblade/vim-rooter.git

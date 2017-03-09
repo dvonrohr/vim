@@ -136,10 +136,11 @@ let g:netrw_liststyle = 3
 let g:netrw_browse_split = 3
 let g:netrw_altv = 1
 let g:netrw_winsize = 25
-set autochdir
 nmap <leader>n :Vexplore<cr>
 
-set browsedir=current
+" set autochdir
+" set browsedir=current
+
 " augroup ProjectDrawer
 "         autocmd!
 "         autocmd VimEnter * :Vexplore
