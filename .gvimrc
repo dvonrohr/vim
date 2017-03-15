@@ -4,7 +4,7 @@ colorscheme onedark
 
 set guioptions=aAce
 set noballooneval
-set linespace=4
+set linespace=1
 
 if has("gui_running")
     set guioptions=icpM
@@ -39,6 +39,6 @@ map <D-M-Left> :tabp<CR>
 autocmd VimResized * wincmd =
 
 if has("gui_macvim")
-  set transparency=10
+  set transparency=1
   set guifont=Monaco\ for\ Powerline:h13
 endif
