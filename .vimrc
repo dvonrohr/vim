@@ -190,3 +190,9 @@ let g:UltiSnipsEditSplit="vertical"
 
 " Open .vimrc for editing
 nmap <Leader>v :edit ~/.vimrc
+
+augroup markdown
+    au!
+    au BufNewFile,BufRead *.md,*.markdown,*.mmd setlocal filetype=ghmarkdown
+    au BufNewFile,BufRead *.md,*.markdown,*.mmd UltiSnipsAddFiletypes ghmarkdown.markdown
+  augroup END
