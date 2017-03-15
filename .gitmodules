@@ -79,3 +79,6 @@
 [submodule "pack/dvonrohr/start/onedark-colorscheme"]
 	path = pack/dvonrohr/start/onedark-colorscheme
 	url = https://github.com/joshdick/onedark.vim.git
+[submodule "pack/dvonrohr/start/taskpaper-vim"]
+	path = pack/dvonrohr/start/taskpaper-vim
+	url = https://github.com/davidoc/taskpaper.vim.git
