@@ -11,7 +11,13 @@ colorscheme base16-railscasts
 set background=dark
 
 imap jj <ESC>
+imap <TAB> <C-P>
+
 let mapleader=" "
+
+" auto-complete features
+set complete=.,b,u,]
+set completeopt=menu,preview
 
 set backspace=indent,eol,start
 set incsearch
@@ -93,7 +99,7 @@ nnoremap <leader>. :CtrlPTag<cr>
 " Wildmenu
 set wildmenu
 set wildignorecase
-set wildmode=list:full
+set wildmode=longest,list:longest
 set wildignore=*.swp,*.bak
 set wildignore+=*.pyc,*.class,*.sln,*.Master,*.csproj,*.csproj.user,*.cache,*.dll,*.pdb,*.min.*
 set wildignore+=*/.git/**/*,*/.hg/**/*,*/.svn/**/*
