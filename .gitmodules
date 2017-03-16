@@ -58,9 +58,6 @@
 [submodule "pack/dvonrohr/start/html5-vim"]
 	path = pack/dvonrohr/start/html5-vim
 	url = https://github.com/othree/html5.vim.git
-[submodule "pack/dvonrohr/start/YouCompleteMe"]
-	path = pack/dvonrohr/start/YouCompleteMe
-	url = https://github.com/Valloric/YouCompleteMe.git
 [submodule "pack/dvonrohr/start/vim-vuew"]
 	path = pack/dvonrohr/start/vim-vuew
 	url = https://github.com/posva/vim-vue.git
