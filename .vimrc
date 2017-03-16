@@ -199,3 +199,9 @@ augroup markdown
     au BufNewFile,BufRead *.md,*.markdown,*.mmd setlocal filetype=ghmarkdown
     au BufNewFile,BufRead *.md,*.markdown,*.mmd UltiSnipsAddFiletypes ghmarkdown.markdown
   augroup END
+
+au FileType php setl ofu=phpcomplete#CompletePHP
+au FileType ruby,eruby setl ofu=rubycomplete#Complete
+au FileType html setl ofu=htmlcomplete#CompleteTags
+au FileType c setl ofu=ccomplete#CompleteCpp
+au FileType css,less,scss setl ofu=csscomplete#CompleteCSS
