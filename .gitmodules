@@ -82,3 +82,9 @@
 [submodule "pack/dvonrohr/start/vim-rooter"]
 	path = pack/dvonrohr/start/vim-rooter
 	url = https://github.com/airblade/vim-rooter.git
+[submodule "pack/dvonrohr/start/vim-javascript"]
+	path = pack/dvonrohr/start/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
+[submodule "pack/dvonrohr/start/vim-jsx"]
+	path = pack/dvonrohr/start/vim-jsx
+	url = https://github.com/mxw/vim-jsx.git
