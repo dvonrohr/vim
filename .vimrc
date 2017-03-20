@@ -7,7 +7,7 @@ filetype plugin indent on
 set encoding=utf-8 " the encoding displayed
 set fileencoding=utf-8 " the encoding written to file
 
-colorscheme onedark
+colorscheme wombat
 set background=dark
 
 imap jj <ESC>
