@@ -61,9 +61,6 @@
 [submodule "pack/dvonrohr/start/vim-vuew"]
 	path = pack/dvonrohr/start/vim-vuew
 	url = https://github.com/posva/vim-vue.git
-[submodule "pack/dvonrohr/start/rainbow-brackets"]
-	path = pack/dvonrohr/start/rainbow-brackets
-	url = https://github.com/luochen1990/rainbow.git
 [submodule "pack/dvonrohr/opt/nerdtree"]
 	path = pack/dvonrohr/opt/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
