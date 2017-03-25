@@ -1,5 +1,5 @@
-" set guifont=Hack:h11:cANSI:qDRAFT
-set guifont=Meslo_LG_M_DZ_for_Powerline:h11:cANSI:qDRAFT
+set guifont=Hack:h11:cANSI:qDRAFT
+" set guifont=Meslo_LG_M_DZ_for_Powerline:h11:cANSI:qDRAFT
 colorscheme onedark
 
 set guioptions=aAce
